@@ -1,11 +1,17 @@
 import express from 'express';
 
+const PORT = process.env.DBWEBB_PORT || '8080';
+
 const app = express();
 
-app.listen(8080, err => {
+app.get('/', (req, res) => {
+  res.status(200).send('Hello World');
+});
+
+app.listen(PORT, err => {
   if (err) {
     console.error(err);
-  } else {
-    console.log(`App listen to port: 8080`);
   }
+
+  console.log(`Server listen to port:`, PORT);
 });
