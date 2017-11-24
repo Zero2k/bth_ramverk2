@@ -10,8 +10,8 @@ sudo: false
 git:
   submodules: false
 
-#before_script:
-  #- yarn
-
+before_script:
+  - npm install-backend
 script:
-  - yarn test
+  - npm start-backend &
+  - npm test-backend

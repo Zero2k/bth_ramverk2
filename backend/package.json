@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon --exec babel-node src/index.js",
+    "start-server": "babel-node src/index.js",
     "test": "jest",
     "prettier": "prettier --single-quote --print-width 100 --trailing-comma all --write 'src/**/*.js'"
   },

@@ -1,0 +1,14 @@
+{
+  "name": "react_Express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "install-backend": "cd backend && yarn",
+    "start-backend": "cd backend && yarn start-server",
+    "test-backend": "cd backend && yarn test",
+    "start-frontend": ""
+  },
+  "repository": "https://github.com/Zero2k/bth_ramverk2.git",
+  "author": "Viktor Bengtsson <vibe16@student.bth.se>",
+  "license": "MIT"
+}
