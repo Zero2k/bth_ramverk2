@@ -1,5 +1,10 @@
 # bth_ramverk2 - react_Express
 
+[![Build Status](https://travis-ci.org/Zero2k/bth_ramverk2.svg?branch=master)](https://travis-ci.org/Zero2k/bth_ramverk2)
+[![BCH compliance](https://bettercodehub.com/edge/badge/Zero2k/bth_ramverk2?branch=master)](https://bettercodehub.com/)
+[![Build Status](https://scrutinizer-ci.com/g/Zero2k/bth_ramverk2/badges/build.png?b=master)](https://scrutinizer-ci.com/g/Zero2k/bth_ramverk2/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Zero2k/bth_ramverk2/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Zero2k/bth_ramverk2/?branch=master)
+
 ## Dependencies
 
 You will need:
